@@ -1,4 +1,115 @@
-@import 'https://gist.githubusercontent.com/chuseman/b3560861e1f93fcb65ce2e32d1018ca7/raw/5fcf867dd3955680c24e447bc84d8565ca93dd9d/JetBrainsMono%2520Nerd%2520Font.css';
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 100;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Thin/JetBrainsMonoNerdFont-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 200;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/ExtraLight/JetBrainsMonoNerdFont-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 300;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Light/JetBrainsMonoNerdFont-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Regular/JetBrainsMonoNerdFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 500;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Medium/JetBrainsMonoNerdFont-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 600;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/SemiBold/JetBrainsMonoNerdFont-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 700;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Bold/JetBrainsMonoNerdFont-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: normal;
+  font-weight: 800;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/ExtraBold/JetBrainsMonoNerdFont-ExtraBold.ttf') format('truetype');
+}
+
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 100;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/ThinItalic/JetBrainsMonoNerdFont-ThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 200;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/ExtraLightItalic/JetBrainsMonoNerdFont-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 300;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/LightItalic/JetBrainsMonoNerdFont-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 400;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/Italic/JetBrainsMonoNerdFont-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 500;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/MediumItalic/JetBrainsMonoNerdFont-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 600;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/SemiBoldItalic/JetBrainsMonoNerdFont-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 700;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/BoldItalic/JetBrainsMonoNerdFont-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "JetBrainsMono Nerd Font";
+  font-style: italic;
+  font-weight: 800;
+  src: url('https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/tags/v3.3.0/patched-fonts/JetBrainsMono/Ligatures/ExtraBoldItalic/JetBrainsMonoNerdFont-ExtraBoldItalic.ttf') format('truetype');
+}
 
 :root {    /* Catppuccin Colors */
     --bg: #1e1e2e;
@@ -18,7 +129,7 @@
     --sky: #89dceb;
     --lavender: #c9cbff;
     --rosewater: #f5e0dc;
-    --font: "JetbrainsMono Nerd Font"; /*"FiraCode Nerd Font Mono";*/
+    --font: "JetBrainsMono Nerd Font"; /*"FiraCode Nerd Font Mono";*/
 
     /* vimium theme uses colors: flamingo, peach, rosewater, green, blue, lavender */
     --tridactyl-fg: var(--fg);
